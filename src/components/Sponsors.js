@@ -12,9 +12,9 @@ const Sponsors = () => {
       <div>
         <a href="https://3dny.co.il/"><img src="/sponsors/3dny.png" alt="3dny"/></a>
         <a href="https://www.cargo-amerford.co.il/en/"><img src="/sponsors/CARGO.png" alt="Cargo"/></a>
-        <a href="https://www.faulhaber.com/en/"><img src="/sponsors/FAULHABER.png" alt="Faulhaber" width="100" height="50" align="left"/></a>
+        <a href="https://www.faulhaber.com/en/"><img src="/sponsors/FAULHABER.png" alt="Faulhaber" width="100"/></a>
         <a href="https://www.firstinspires.org/robotics/frc"><img src="/sponsors/FRC.png" alt="FRC"/></a>
-        <a href="https://www.l-tech.co.il/"><img src="/sponsors/LEWENSTEIN.png" alt="Lewenstein" width="100" height="50" align="left"/></a>
+        <a href="https://www.l-tech.co.il/"><img src="/sponsors/LEWENSTEIN.png" alt="Lewenstein" width="100"/></a>
         <a href="https://www.facebook.com/sheplerfinancialgroup/"><img src="/sponsors/SHEPLER.png" alt="Shelper"/></a>
         <a href="https://www.erco.co.il/"><img src="/sponsors/araca.png" alt="Araca"/></a>
         <a href="https://www.btimetals.co.il/"><img src="/sponsors/bti.png" alt="Bti"/></a>
