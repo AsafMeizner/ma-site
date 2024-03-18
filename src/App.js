@@ -12,8 +12,8 @@ function App() {
       <TopBanner />
       <ThreeDModel />
       <TextImages />
-      <ContactUs />
       <Sponsors />
+      <ContactUs />
     </div>
   );
 }

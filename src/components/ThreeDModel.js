@@ -1,14 +1,16 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { BoxGeometry, MeshBasicMaterial } from 'three';
 
 const MyModel = ({ modelScale }) => {
   const modelRef = useRef();
 
+  const rotationSpeed = 0.001; // Adjust the value to control the rotation speed
+
   // Rotate the model based on scroll position
   useFrame(({ clock }) => {
+    const scrollPosition = window.scrollY;
     const time = clock.getElapsedTime();
-    modelRef.current.rotation.y = time / 2; // Adjust rotation speed as needed
+    modelRef.current.rotation.y = (scrollPosition * rotationSpeed) + (time / 10);
   });
 
   return (
