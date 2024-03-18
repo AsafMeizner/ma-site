@@ -1,0 +1,17 @@
+.contact-us {
+    background-color: red;
+    color: white; /* Adjust text color as needed */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-media-links a {
+    color: white; /* Adjust link color as needed */
+  }
+  
