@@ -3,6 +3,7 @@ import TopBanner from './components/TopBanner';
 import ThreeDModel from './components/ThreeDModel';
 import TextImages from './components/TextImages';
 import ContactUs from './components/ContactUs';
+import Sponsors from './components/Sponsors';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <ThreeDModel />
       <TextImages />
       <ContactUs />
+      <Sponsors />
     </div>
   );
 }
