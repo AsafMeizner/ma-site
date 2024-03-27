@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
+import '../styles/ThreeDModel.css';
 
 const MyModel = ({ modelScale }) => {
   const modelRef = useRef();
@@ -26,6 +27,7 @@ const ThreeDModel = () => {
 
   return (
     <div className="three-d-model" style={{ width: '100%', height: '70vh' }}>
+      <h1>Our 2024 Robot</h1>
       <Canvas>
         <ambientLight />
         <pointLight position={[10, 10, 10]} />
