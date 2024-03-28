@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/team.css'
+import '../styles/OurTeam.css'
 
 
 const teamMembersRow1 = [
@@ -62,7 +62,7 @@ const Team = () => {
                 <div className='team__content'>
                     <h1>Meet Our Team</h1>
                 </div>
-                <div className='team__wrapper'>
+                <div className='team__wrapper' style={{marginLeft: "20px", marginRight: "20px"}}>
                     {
                         teamMembersRow1.map((item, index) => (
                             <div className='team__item' key={index}>
@@ -83,7 +83,7 @@ const Team = () => {
                         ))
                     }
                 </div>
-                <div className='team__wrapper'>
+                <div className='team__wrapper' style={{marginLeft: "20px", marginRight: "20px"}}>
                     {
                         teamMembersRow2.map((item, index) => (
                             <div className='team__item' key={index}>

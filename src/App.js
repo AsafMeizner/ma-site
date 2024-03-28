@@ -8,6 +8,9 @@ import OurTeam from './components/OurTeam';
 import Footer from './components/Footer';
 import './App.css';
 
+import GalleryOne from './components/galleryOne';
+// import GalleryTwo from './components/galleryTwo';
+
 function App() {
   return (
     <div className="App">
@@ -15,9 +18,11 @@ function App() {
       <ThreeDModel />
       <TextImages />
       <OurTeam />
+      <GalleryOne />
       <Sponsors />
       <ContactUs />
       <Footer />
+      {/* <GalleryTwo /> */}
     </div>
   );
 }
