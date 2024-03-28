@@ -4,84 +4,84 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
-    original: "../gallery/image1.jpg",
-    thumbnail: "../gallery/image1.jpg",
+    original: "../gallery/image1.JPG",
+    thumbnail: "../gallery/image1.JPG",
   },
   {
-    original: "../gallery/image2.jpg",
-    thumbnail: "../gallery/image2.jpg",
+    original: "../gallery/image2.JPG",
+    thumbnail: "../gallery/image2.JPG",
   },
   {
-    original: "../gallery/image3.jpg",
-    thumbnail: "../gallery/image3.jpg",
+    original: "../gallery/image3.JPG",
+    thumbnail: "../gallery/image3.JPG",
   },
   {
-    original: "../gallery/image4.jpg",
-    thumbnail: "../gallery/image4.jpg",
+    original: "../gallery/image4.JPG",
+    thumbnail: "../gallery/image4.JPG",
   },
   {
-    original: "../gallery/image5.jpg",
-    thumbnail: "../gallery/image5.jpg",
+    original: "../gallery/image5.JPG",
+    thumbnail: "../gallery/image5.JPG",
   },
   {
-    original: "../gallery/image6.jpg",
-    thumbnail: "../gallery/image6.jpg",
+    original: "../gallery/image6.JPG",
+    thumbnail: "../gallery/image6.JPG",
   },
   {
-    original: "../gallery/image7.jpg",
-    thumbnail: "../gallery/image7.jpg",
+    original: "../gallery/image7.JPG",
+    thumbnail: "../gallery/image7.JPG",
   },
   {
-    original: "../gallery/image8.jpg",
-    thumbnail: "../gallery/image8.jpg",
+    original: "../gallery/image8.JPG",
+    thumbnail: "../gallery/image8.JPG",
   },
   {
-    original: "../gallery/image9.jpg",
-    thumbnail: "../gallery/image9.jpg",
+    original: "../gallery/image9.JPG",
+    thumbnail: "../gallery/image9.JPG",
   },
   {
-    original: "../gallery/image10.jpg",
-    thumbnail: "../gallery/image10.jpg",
+    original: "../gallery/image10.JPG",
+    thumbnail: "../gallery/image10.JPG",
   },
   {
-    original: "../gallery/image11.jpg",
-    thumbnail: "../gallery/image11.jpg",
+    original: "../gallery/image11.JPG",
+    thumbnail: "../gallery/image11.JPG",
   },
   {
-    original: "../gallery/image12.jpg",
-    thumbnail: "../gallery/image12.jpg",
+    original: "../gallery/image12.JPG",
+    thumbnail: "../gallery/image12.JPG",
   },
   {
-    original: "../gallery/image13.jpg",
-    thumbnail: "../gallery/image13.jpg",
+    original: "../gallery/image13.JPG",
+    thumbnail: "../gallery/image13.JPG",
   },
   {
-    original: "../gallery/image14.jpg",
-    thumbnail: "../gallery/image14.jpg",
+    original: "../gallery/image14.JPG",
+    thumbnail: "../gallery/image14.JPG",
   },
   {
-    original: "../gallery/image15.jpg",
-    thumbnail: "../gallery/image15.jpg",
+    original: "../gallery/image15.JPG",
+    thumbnail: "../gallery/image15.JPG",
   },
   {
-    original: "../gallery/image16.jpg",
-    thumbnail: "../gallery/image16.jpg",
+    original: "../gallery/image16.JPG",
+    thumbnail: "../gallery/image16.JPG",
   },
   {
-    original: "../gallery/image17.jpg",
-    thumbnail: "../gallery/image17.jpg",
+    original: "../gallery/image17.JPG",
+    thumbnail: "../gallery/image17.JPG",
   },
   {
-    original: "../gallery/image18.jpg",
-    thumbnail: "../gallery/image18.jpg",
+    original: "../gallery/image18.JPG",
+    thumbnail: "../gallery/image18.JPG",
   },
   {
-    original: "../gallery/image19.jpg",
-    thumbnail: "../gallery/image19.jpg",
+    original: "../gallery/image19.JPG",
+    thumbnail: "../gallery/image19.JPG",
   },
   {
-    original: "../gallery/image20.jpg",
-    thumbnail: "../gallery/image20.jpg",
+    original: "../gallery/image20.JPG",
+    thumbnail: "../gallery/image20.JPG",
   }
 ];
 
