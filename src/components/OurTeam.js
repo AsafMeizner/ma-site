@@ -30,7 +30,7 @@ const teamMembersRow2 = [
 
 const teamMembersRow1 = [
     {
-        imgUrl: '/team/liorGil.png',
+        imgUrl: '/team/LiorGil.png',
         name: 'Lior Gil',
         position: 'Captain'
     },
