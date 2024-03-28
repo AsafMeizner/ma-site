@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/OurTeam.css'
 
 
-const teamMembersRow1 = [
+const teamMembersRow2 = [
     {
         imgUrl: '/team/image1.png',
         name: 'IDK 1',
@@ -28,29 +28,29 @@ const teamMembersRow1 = [
     }
 ]
 
-const teamMembersRow2 = [
+const teamMembersRow1 = [
     {
-        imgUrl: '/team/image1.png',
-        name: 'IDK 5',
-        position: 'Production Designer'
+        imgUrl: '/team/liorGil.png',
+        name: 'Lior Gil',
+        position: 'Captain'
     },
 
     {
-        imgUrl: '/team/image2.png',
-        name: 'IDK 6',
-        position: 'Product Designer'
+        imgUrl: '/team/NadavBino.png',
+        name: 'Nadav Bino',
+        position: 'Captain'
     },
 
     {
-        imgUrl: '/team/image3.png',
-        name: 'IDK 7',
-        position: 'Customer Service'
+        imgUrl: '/team/OriGoldshtein.png',
+        name: 'Ori Goldshtein',
+        position: 'Electrical sub-team lead & Driver'
     },
 
     {
-        imgUrl: '/team/image1.png',
-        name: 'IDK 8',
-        position: 'Project Leader'
+        imgUrl: '/team/BenChigiriski.png',
+        name: 'Ben Chigiriski',
+        position: 'CAD sub-team lead & Coach'
     }
     
 ]
@@ -72,12 +72,12 @@ const Team = () => {
                                 <div className='team__details'>
                                     <h4>{item.name}</h4>
                                     <p className='description'>{item.position}</p>
-
+{/* 
                                     <div className='team__member-social'>
                                         <span><i class='ri-linkedin-line'></i></span>
                                         <span><i class='ri-twitter-line'></i></span>
                                         <span><i class='ri-facebook-line'></i></span>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         ))

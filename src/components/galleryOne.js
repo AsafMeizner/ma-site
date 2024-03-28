@@ -1,6 +1,7 @@
 import React from 'react';
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import '../styles/GalleryOne.css';
 
 const images = [
   {
@@ -88,11 +89,14 @@ const images = [
 class GalleryOne extends React.Component {
   render() {
     return (
-        <div style={{marginBottom: '20px'}}>
-            <div style={{backgroundColor: 'rgb(130, 21, 34)', height: '50px', width: '100%', marginBottom: '20px'}}></div>
-            {/* <div> */}
-            <div style={{marginLeft: '10%', marginRight: '10%'}}>
-                <ImageGallery items={images} autoPlay={true} slideInterval={1800} slideDuration={600}/>
+        <div className="gallery-one">
+            <div style={{backgroundColor: 'rgb(130, 21, 34)', height: '10px', width: '100%', marginBottom: '2%'}}></div>
+            <h1>Gallery</h1>
+            <div style={{marginLeft: '15%', marginRight: '15%', marginTop: '2%'}}>
+                <ImageGallery items={images} autoPlay={true} slideInterval={3000} slideDuration={700}/>
+            </div>
+            <div align="center">
+              <div style={{backgroundColor: 'white', height: '5px', width: '90%', marginTop: '2%'}}></div>
             </div>
         </div>
     );
