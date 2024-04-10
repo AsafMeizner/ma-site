@@ -11,20 +11,20 @@ const teamMembersRow2 = [
 
     {
         imgUrl: '/team/image2.png',
-        name: 'IDK 2',
-        position: 'Product Designer'
+        name: 'Lior Erez',
+        position: 'Mechanical sub-team lead'
     },
 
     {
         imgUrl: '/team/image3.png',
-        name: 'IDK 3',
-        position: 'Customer Service'
+        name: 'Guy Patt',
+        position: 'Manufacturing sub-team lead'
     },
 
     {
         imgUrl: '/team/image1.png',
-        name: 'IDK 4',
-        position: 'Project Leader'
+        name: 'Yoav Kaplan',
+        position: 'Proggraming sub-team lead'
     }
 ]
 
@@ -43,7 +43,7 @@ const teamMembersRow1 = [
 
     {
         imgUrl: '/team/OriGoldshtein.png',
-        name: 'Ori Goldshtein',
+        name: 'Uri Goldstein',
         position: 'Electrical sub-team lead & Driver'
     },
 
