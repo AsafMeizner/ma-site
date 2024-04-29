@@ -86,13 +86,13 @@ const images = [
   }
 ];
 
-class GalleryOne extends React.Component {
+class Gallery extends React.Component {
   render() {
     return (
         <div className="gallery-one">
             <div style={{backgroundColor: 'rgb(130, 21, 34)', height: '10px', width: '100%', marginBottom: '2%'}}></div>
             <h1>Gallery</h1>
-            <div style={{marginLeft: '15%', marginRight: '15%', marginTop: '2%'}}>
+            <div style={{marginLeft: '20%', marginRight: '20%', marginTop: '2%'}}>
                 <ImageGallery items={images} autoPlay={true} slideInterval={3000} slideDuration={700}/>
             </div>
             <div align="center">
@@ -103,4 +103,4 @@ class GalleryOne extends React.Component {
   }
 }
 
-export default GalleryOne;
+export default Gallery;

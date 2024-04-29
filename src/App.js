@@ -6,7 +6,7 @@ import ContactUs from './components/ContactUs';
 import Sponsors from './components/Sponsors';
 import OurTeam from './components/OurTeam';
 import Footer from './components/Footer';
-import GalleryOne from './components/galleryOne';
+import Gallery from './components/Gallery';
 import './App.css';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <RobotModel />
       <TextImages />
       <OurTeam />
-      <GalleryOne />
+      <Gallery />
       <Sponsors />
       <ContactUs />
       <Footer />
