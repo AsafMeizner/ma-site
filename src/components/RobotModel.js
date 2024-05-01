@@ -13,8 +13,9 @@ const RobotModel = () => {
       const scrollPosition = window.scrollY;
       const totalScrollHeight = document.body.scrollHeight - window.innerHeight;
       const scrollProgress = scrollPosition / totalScrollHeight;
-      const multiplier = 1.5; // Adjust this value to change scroll speed
-      const newImageIndex = Math.floor(scrollProgress * imageCount * multiplier);
+      const startImageIndex = 2;
+      const multiplier = 2; // Adjust this value to change scroll speed
+      const newImageIndex = Math.floor(scrollProgress * imageCount * multiplier + startImageIndex);
 
       // Ensure index stays within imageUrls bounds (added safeguard)
       if (newImageIndex >= 0 && newImageIndex < imageCount) {
@@ -30,7 +31,7 @@ const RobotModel = () => {
   }, []);
 
   return (
-    <div className="RobotModel" style={{ width: '100%', height: '70vh', marginBottom: '5%' }}>
+    <div className="RobotModel" style={{height: '90vh', marginBottom: '5%' }}>
       <h1>Our 2024 Robot</h1>
       <div
         style={{
@@ -54,12 +55,13 @@ const RobotModel = () => {
               style={{
                 position: 'absolute',
                 top: '0%',
-                height: '100%',
+                height: '80vh',
                 opacity: index === currentImageIndex ? 1 : 0,
                 transition: 'none',
               }}
             />
-          ))}
+          ))
+        }
       </div>
     </div>
   );
