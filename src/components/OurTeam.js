@@ -1,58 +1,47 @@
 import React from 'react'
 import '../styles/OurTeam.css'
 
-
-const teamMembersRow2 = [
+const teamMembersRow1 = [
     {
-        imgUrl: '/team/image1.png',
-        name: 'IDK 1',
-        position: 'Production Designer'
+        imgUrl: '/Noya.png',
+        name: 'Noya Reuven',
+        position: 'Captain'
     },
-
     {
-        imgUrl: '/team/image2.png',
-        name: 'Lior Erez',
+        imgUrl: 'Tamar.png',
+        name: 'Tamar Dayan',
+        position: 'Captain'
+    },
+    {
+        imgUrl: 'Noga.png',
+        name: 'Noga Cohen',
         position: 'Mechanical sub-team lead'
     },
-
     {
-        imgUrl: '/team/image3.png',
-        name: 'Guy Patt',
-        position: 'Manufacturing sub-team lead'
-    },
-
-    {
-        imgUrl: '/team/image1.png',
-        name: 'Yoav Kaplan',
-        position: 'Proggraming sub-team lead'
+        imgUrl: 'Ben.png',
+        name: 'Ben Lerner',
+        position: 'CAD sub-team lead'
     }
 ]
 
-const teamMembersRow1 = [
+const teamMembersRow2 = [
     {
-        imgUrl: '/team/LiorGil.png',
-        name: 'Lior Gil',
-        position: 'Captain'
+        imgUrl: 'image1.png',
+        name: 'Gal Dotan',
+        position: 'Control sub-team lead'
     },
 
     {
-        imgUrl: '/team/NadavBino.png',
-        name: 'Nadav Bino',
-        position: 'Captain'
+        imgUrl: 'image2.png',
+        name: 'Asaf Meizner',
+        position: 'Programing & Media sub-team lead'
     },
 
     {
-        imgUrl: '/team/OriGoldshtein.png',
-        name: 'Uri Goldstein',
-        position: 'Electrical sub-team lead & Driver'
-    },
-
-    {
-        imgUrl: '/team/BenChigiriski.png',
-        name: 'Ben Chigiriski',
-        position: 'CAD sub-team lead & Coach'
+        imgUrl: 'image3.png',
+        name: 'Amitai Hefeitz',
+        position: 'Electrical sub-team lead'
     }
-    
 ]
 
 const Team = () => {
@@ -62,12 +51,17 @@ const Team = () => {
                 <div className='team__content'>
                     <h1>Meet Our Team</h1>
                 </div>
-                <div className='team__wrapper' style={{marginLeft: "20px", marginRight: "20px"}}>
+                <div className='team__wrapper' style={{marginLeft: "20px", marginRight: "20px", display: "flex", justifyContent: "center", alignItems: "center"}}>
                     {
                         teamMembersRow1.map((item, index) => (
                             <div className='team__item' key={index}>
                                 <div className='team__img'>
-                                    <img src={item.imgUrl} alt='' />
+                                    <img 
+                                        src={"team/normal/" + item.imgUrl} 
+                                        onMouseOut={e => e.currentTarget.src="team/normal/" +  item.imgUrl} 
+                                        onMouseOver={e => e.currentTarget.src="team/funny/" +  item.imgUrl} 
+                                        alt='' 
+                                    />
                                 </div>
                                 <div className='team__details'>
                                     <h4>{item.name}</h4>
@@ -77,12 +71,17 @@ const Team = () => {
                         ))
                     }
                 </div>
-                <div className='team__wrapper' style={{marginLeft: "20px", marginRight: "20px"}}>
+                <div className='team__wrapper' style={{marginLeft: "20px", marginRight: "20px", display: "flex", justifyContent: "center", alignItems: "center"}}>
                     {
                         teamMembersRow2.map((item, index) => (
                             <div className='team__item' key={index}>
                                 <div className='team__img'>
-                                    <img src={item.imgUrl} alt='' />
+                                    <img 
+                                        src={"team/normal/" + item.imgUrl} 
+                                        onMouseOut={e => e.currentTarget.src="team/normal/" +  item.imgUrl} 
+                                        onMouseOver={e => e.currentTarget.src="team/funny/" +  item.imgUrl} 
+                                        alt='' 
+                                    />
                                 </div>
                                 <div className='team__details'>
                                     <h4>{item.name}</h4>
