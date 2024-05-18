@@ -34,13 +34,13 @@ const teamMembersRow2 = [
     {
         imgUrl: 'image2.png',
         name: 'Asaf Meizner',
-        position: 'Programing & Media sub-team lead'
+        position: 'Programing Lead & Media sub-team lead'
     },
 
     {
         imgUrl: 'image3.png',
         name: 'Amitai Hefeitz',
-        position: 'Electrical sub-team lead'
+        position: 'Electrical lead'
     }
 ]
 
