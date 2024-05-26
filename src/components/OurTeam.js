@@ -41,6 +41,12 @@ const teamMembersRow2 = [
         imgUrl: 'image3.png',
         name: 'Amitai Hefeitz',
         position: 'Electrical lead'
+    },
+
+    {
+        imgUrl: 'image3.png',
+        name: 'Elya Mondelblat',
+        position: 'Community sub-team lead'
     }
 ]
 
