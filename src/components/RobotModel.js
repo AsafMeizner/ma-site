@@ -31,7 +31,7 @@ const RobotModel = () => {
   }, []);
 
   return (
-    <div className="RobotModel" style={{height: '90vh', marginBottom: '5%' }}>
+    <div className="RobotModel" style={{height: '90vh'}}>
       <h1>Our 2024 Robot</h1>
       <div
         style={{
