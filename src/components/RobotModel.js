@@ -31,7 +31,8 @@ const RobotModel = () => {
   }, []);
 
   return (
-    <div className="RobotModel" style={{height: '56.25vw'}}>
+    // <div className="RobotModel" style={{height: '56.25vw'}}>
+    <div className="RobotModel" style={{height: '78.75vw'}}>
       <div
         style={{
           position: 'relative',
