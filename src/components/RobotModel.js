@@ -39,7 +39,7 @@ const RobotModel = () => {
           height: '100%',
           overflow: 'hidden',
           display: 'flex',
-          justifyContent: 'center',
+          justifyContent: 'right',
   
         }}
       >
@@ -54,7 +54,7 @@ const RobotModel = () => {
               style={{
                 position: 'absolute',
                 top: '0%',
-                width: '100%',
+                width: '140%',
                 opacity: index === currentImageIndex ? 1 : 0,
                 transition: 'none',
               }}
