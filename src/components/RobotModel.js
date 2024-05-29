@@ -6,7 +6,13 @@ const RobotModel = () => {
   const imageRefs = useRef([]);
 
   const baseUrl = 'https://raw.githubusercontent.com/AsafMeizner/ma-site/master/public/robot/robot-';
-  const imageCount = 199;
+  const imageCount = 200;
+
+  if (screen.width >= screen.height) {
+    const setHeight = '56.25vw';
+  } else {
+    const setHeight = '90vh';
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,80 +35,42 @@ const RobotModel = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
-  if (screen.width >= screen.height){
-    return (
-      <div className="RobotModel" style={{height: '56.25vw'}}>
-        <div
-          style={{
-            position: 'relative',
-            width: '100%',
-            height: '100%',
-            overflow: 'hidden',
-            display: 'flex',
-            justifyContent: 'center',
-    
-          }}
-        >
-          {Array(imageCount) 
-            .fill(null)
-            .map((_, index) => (
-              <img
-                key={index}
-                ref={(el) => (imageRefs.current[index] = el)}
-                src={`${baseUrl}0${index.toString().padStart(3, '0')}.jpg`} 
-                alt={`Robot Image ${index + 1}`}
-                style={{
-                  position: 'absolute',
-                  top: '0%',
-                  width: '100%',
-                  opacity: index === currentImageIndex ? 1 : 0,
-                  transition: 'none',
-                }}
-              />
-            ))
-          }
-          <h1 class="text-on-image">Our 2024 Robot</h1>
-        </div>
+  
+  return (
+    <div className="RobotModel" style={{height: setHeight}}>
+      <div
+        style={{
+          position: 'relative',
+          width: '100%',
+          height: '100%',
+          overflow: 'hidden',
+          display: 'flex',
+          justifyContent: 'right',
+  
+        }}
+      >
+        {Array(imageCount) 
+          .fill(null)
+          .map((_, index) => (
+            <img
+              key={index}
+              ref={(el) => (imageRefs.current[index] = el)}
+              src={`${baseUrl}0${index.toString().padStart(3, '0')}.jpg`} 
+              alt={`Robot Image ${index + 1}`}
+              style={{
+                position: 'absolute',
+                top: '0%',
+                width: '100%',
+                opacity: index === currentImageIndex ? 1 : 0,
+                transition: 'none',
+              }}
+            />
+          ))
+        }
+        <h1 class="text-on-image">Our 2024 Robot</h1>
       </div>
-    );
-  } else {
-    return (
-      <div className="RobotModel" style={{height: '90vh'}}>
-        <div
-          style={{
-            position: 'relative',
-            width: '100%',
-            height: '100%',
-            overflow: 'hidden',
-            display: 'flex',
-            justifyContent: 'center',
-    
-          }}
-        >
-          {Array(imageCount) 
-            .fill(null)
-            .map((_, index) => (
-              <img
-                key={index}
-                ref={(el) => (imageRefs.current[index] = el)}
-                src={`${baseUrl}0${index.toString().padStart(3, '0')}.jpg`} 
-                alt={`Robot Image ${index + 1}`}
-                style={{
-                  position: 'absolute',
-                  top: '0%',
-                  height: '100%',
-                  opacity: index === currentImageIndex ? 1 : 0,
-                  transition: 'none',
-                }}
-              />
-            ))
-          }
-          <h1 class="text-on-image">Our 2024 Robot</h1>
-        </div>
-      </div>
-    );
-  }
+    </div>
+  );
 };
 
 export default RobotModel;
