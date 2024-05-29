@@ -29,6 +29,8 @@ const RobotModel = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  const isPortrait = window.screen.width < window.screen.height;
   
   return (
     <div className="RobotModel" style={{ height: isPortrait ? '90vh' : '56.25vw' }}>
