@@ -57,6 +57,7 @@ const RobotModel = () => {
                 position: 'absolute',
                 top: '0%',
                 width: '100%',
+                height: 'auto',
                 opacity: index === currentImageIndex ? 1 : 0,
                 transition: 'none',
               }}
