@@ -63,7 +63,7 @@ const RobotModel = () => {
             />
           ))
         }
-        <h1 style={{ position: 'absolute', z-index: 1 }}>Our 2024 Robot</h1>
+        <h1 style={{ position: 'absolute', z-index: '1' }}>Our 2024 Robot</h1>
       </div>
     </div>
   );
