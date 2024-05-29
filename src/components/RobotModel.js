@@ -36,7 +36,11 @@ const RobotModel = () => {
         style={{
           position: 'relative',
           width: '100%',
-          height: '100%'
+          height: '100%',
+          overflow: 'hidden',
+          display: 'flex',
+          justifyContent: 'center',
+  
         }}
       >
         {Array(imageCount) 
