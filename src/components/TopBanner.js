@@ -10,8 +10,8 @@ const TopBanner = () => {
         src="/bannerBackground.JPG"
         alt="Banner"
         style={{
-          heigt: 'auto',
-          width: isPortrait? '90vw' : '30vw'
+          width: isPortrait? '90%' : '30%',
+          height: 'auto'
         }}
       />
       <div className="img-overlay">
