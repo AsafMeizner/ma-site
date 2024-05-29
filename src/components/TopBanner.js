@@ -11,7 +11,7 @@ const TopBanner = () => {
         alt="Banner"
         style={{
           heigt: 'auto',
-          width: isPortrait? '90%' : '30%'
+          width: isPortrait? '90vw' : '30vw'
         }}
       />
       <div className="img-overlay">
