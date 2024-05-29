@@ -35,13 +35,13 @@ const RobotModel = () => {
       <h1>Our 2024 Robot</h1>
       <div
         style={{
-          //position: 'relative',
+          position: 'relative',
           width: '100%',
           height: '100%',
           //overflow: 'hidden',
-          //display: 'flex',
-          //justifyContent: 'center',
-          //alignItems: 'center' 
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center' 
         }}
       >
         {Array(imageCount) 
