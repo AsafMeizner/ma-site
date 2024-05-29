@@ -14,7 +14,7 @@ const RobotModel = () => {
       const totalScrollHeight = document.body.scrollHeight - window.innerHeight;
       const scrollProgress = scrollPosition / totalScrollHeight;
       const startImageIndex = 2;
-      const multiplier = 2; // Adjust this value to change scroll speed
+      const multiplier = 2.7; // Adjust this value to change scroll speed
       const newImageIndex = Math.floor(scrollProgress * imageCount * multiplier + startImageIndex);
 
       // Ensure index stays within imageUrls bounds (added safeguard)
