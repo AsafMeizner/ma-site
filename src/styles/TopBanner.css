@@ -13,18 +13,11 @@
   margin-bottom: 0%;
 }
 
-
 .banner-subtitle {
   color: rgb(255, 255, 255);
   font-size: 300%;
   margin-top: 0%;
 }
-
-.team-logo {
-  width: auto;
-  height: 30%;
-}
-
 
 .banner-background-image {
   object-fit: cover; 
