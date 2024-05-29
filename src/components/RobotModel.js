@@ -40,7 +40,7 @@ const RobotModel = () => {
             height: '100%',
             overflow: 'hidden',
             display: 'flex',
-            justifyContent: 'right',
+            justifyContent: 'center',
     
           }}
         >
@@ -76,7 +76,7 @@ const RobotModel = () => {
             height: '100%',
             overflow: 'hidden',
             display: 'flex',
-            justifyContent: 'right',
+            justifyContent: 'center',
     
           }}
         >
