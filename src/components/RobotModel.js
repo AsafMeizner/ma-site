@@ -5,7 +5,7 @@ const RobotModel = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const imageRefs = useRef([]);
 
-  const baseUrl = 'https://www.apple.com/105/media/us/apple-vision-pro/2024/6e1432b2-fe09-4113-a1af-f20987bcfeee/anim/360/large/';
+  const baseUrl = 'https://raw.githubusercontent.com/AsafMeizner/ma-site/master/public/robot/robot-';
   const imageCount = 199;
 
   useEffect(() => {
