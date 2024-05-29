@@ -38,7 +38,7 @@ const RobotModel = () => {
   
   return (
     screen.width < screen.height ? (
-      <div className="RobotModel" style={{height: '90vh'}}>
+      <div className="RobotModel" style={{ height: '90vh' }}>
         <div
           style={{
             position: 'relative',
@@ -68,11 +68,11 @@ const RobotModel = () => {
               />
             ))
           }
-          <h1 class="text-on-image">Our 2024 Robot</h1>
+          <h1 className="text-on-image">Our 2024 Robot</h1>
         </div>
       </div>
     ) : (
-      <div className="RobotModel" style={{height: '56.25vw'}}>
+      <div className="RobotModel" style={{ height: '56.25vw' }}>
         <div
           style={{
             position: 'relative',
