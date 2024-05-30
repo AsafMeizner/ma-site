@@ -24,7 +24,7 @@ const teamMembersRow1 = [
     },
     {
         imgUrl: 'Ben.png',
-        name: 'Avisar',
+        name: 'Amit Avisar',
         position: 'Manufacturing sub-team lead'
     }
 ]
