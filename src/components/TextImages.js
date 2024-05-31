@@ -24,7 +24,9 @@ const TextImages = () => {
         <div className="row">
           <img src="/image1.png" alt="Makers Assemble Logo" className="image" />
           <p>We are the Makers Assemble robotics group from Tichonet High School in Tel Aviv. Our group takes part in the various programs of the world FIRST organization. In our complex other groups operate in the other programs FRC, FTC, FLL and FLL Explore. In addition, our group works for the community, using the knowledge we acquired with the help of the program and with the aim of spreading our vision FIRST For Everyone.
- /n
+</p>
+<p> </p>
+<p>
 Our team has been operating since 2016 and consists of the students of the senior levels and is assisted by mentors. The team consists of six main teams. Five of them deal with the technical part (mechanics, drawing, software, electronics) and the last one is a community that deals with an equally important part of contributing to the community and marketing of the group in which the whole group takes part.</p>
         </div>
         <div className="row">
