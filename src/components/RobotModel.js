@@ -41,8 +41,7 @@ const RobotModel = () => {
           height: '100%',
           overflow: 'hidden',
           display: 'flex',
-          justifyContent: 'center',
-  
+          justifyContent: isPortrait ? 'center' : 'right',
         }}
       >
         {Array(imageCount) 
@@ -56,15 +55,25 @@ const RobotModel = () => {
               style={{
                 position: 'absolute',
                 top: '0%',
-                width: isPortrait ? 'auto' : '100%',
+                width: isPortrait ? 'auto' : '130%',
                 height: isPortrait ? '100%' : 'auto',
                 opacity: index === currentImageIndex ? 1 : 0,
                 transition: 'none',
+                left: isPortrait ? '-120%' : '-45%',
+                top: isPortrait ? '0%' : '-15%',
               }}
             />
           ))
         }
-        <h1 class="text-on-image">Our 2024 Robot</h1>
+        <h1 class="text-on-image" style={{opacity: isPortrait? '100%' : '0%'}}>Our 2024 Robot</h1>
+        <img src="maroon.png" alt="maroon" 
+          style={{
+            width: "auto", 
+            height: "100%",
+            opacity: isPortrait ? 0 : 100,
+            zIndex: 100,
+
+          }}/>
       </div>
     </div>
   );
