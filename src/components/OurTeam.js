@@ -3,27 +3,27 @@ import '../styles/OurTeam.css'
 
 const teamMembersRow1 = [
     {
-        imgUrl: '/Noya.png',
+        imgUrl: 'moya.png',
         name: 'Noya Reuven',
         position: 'Captain'
     },
     {
-        imgUrl: 'Tamar.png',
+        imgUrl: 'tamar.png',
         name: 'Tamar Dayan',
         position: 'Captain'
     },
     {
-        imgUrl: 'Noga.png',
+        imgUrl: 'noga.png',
         name: 'Noga Cohen',
         position: 'Mechanical sub-team lead'
     },
     {
-        imgUrl: 'Ben.png',
+        imgUrl: 'ben.png',
         name: 'Ben Lerner',
         position: 'CAD sub-team lead'
     },
     {
-        imgUrl: 'Ben.png',
+        imgUrl: 'avisar.png',
         name: 'Amit Avisar',
         position: 'Manufacturing sub-team lead'
     }
@@ -31,25 +31,25 @@ const teamMembersRow1 = [
 
 const teamMembersRow2 = [
     {
-        imgUrl: 'image1.png',
+        imgUrl: 'gal.png',
         name: 'Gal Dotan',
         position: 'Control sub-team lead'
     },
 
     {
-        imgUrl: 'image2.png',
+        imgUrl: 'asaf.png',
         name: 'Asaf Meizner',
         position: 'Programing Lead & Media sub-team lead'
     },
 
     {
-        imgUrl: 'image3.png',
+        imgUrl: 'amitai.png',
         name: 'Amitai Hefeitz',
         position: 'Electrical lead'
     },
 
     {
-        imgUrl: 'image3.png',
+        imgUrl: 'elya.png',
         name: 'Elya Mondelblat',
         position: 'Community sub-team lead'
     }
