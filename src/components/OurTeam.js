@@ -68,9 +68,9 @@ const Team = () => {
                             <div className='team__item' key={index}>
                                 <div className='team__img'>
                                     <img 
-                                        src={"team/normal/" + item.imgUrl} 
-                                        onMouseOut={e => e.currentTarget.src="team/normal/" +  item.imgUrl} 
-                                        onMouseOver={e => e.currentTarget.src="team/funny/" +  item.imgUrl} 
+                                        src={"/team/normal/" + item.imgUrl} 
+                                        onMouseOut={e => e.currentTarget.src="/team/normal/" +  item.imgUrl} 
+                                        onMouseOver={e => e.currentTarget.src="/team/funny/" +  item.imgUrl} 
                                         alt='' 
                                     />
                                 </div>
@@ -88,9 +88,9 @@ const Team = () => {
                             <div className='team__item' key={index}>
                                 <div className='team__img'>
                                     <img 
-                                        src={"team/normal/" + item.imgUrl} 
-                                        onMouseOut={e => e.currentTarget.src="team/normal/" +  item.imgUrl} 
-                                        onMouseOver={e => e.currentTarget.src="team/funny/" +  item.imgUrl} 
+                                        src={"/team/normal/" + item.imgUrl} 
+                                        onMouseOut={e => e.currentTarget.src="/team/normal/" +  item.imgUrl} 
+                                        onMouseOver={e => e.currentTarget.src="/team/funny/" +  item.imgUrl} 
                                         alt='' 
                                     />
                                 </div>
