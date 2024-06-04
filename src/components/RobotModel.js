@@ -5,7 +5,7 @@ const RobotModel = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const imageRefs = useRef([]);
 
-  const baseUrl = 'https://raw.githubusercontent.com/AsafMeizner/ma-site/master/public/robot/robot-';
+  const baseUrl = 'https://raw.githubusercontent.com/AsafMeizner/ma-site/master/public/robot/robot_';
   const imageCount = 200;
 
   useEffect(() => {
