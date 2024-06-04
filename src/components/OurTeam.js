@@ -3,7 +3,7 @@ import '../styles/OurTeam.css'
 
 const teamMembersRow1 = [
     {
-        imgUrl: 'moya.png',
+        imgUrl: 'noya.png',
         name: 'Noya Reuven',
         position: 'Captain'
     },
