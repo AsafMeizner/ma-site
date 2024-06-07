@@ -1,6 +1,8 @@
 .top-banner {
-  background-color: white;
+  /* background-color: white; */
+  background-color: rgb(130, 21, 34);
   text-align: center;
+  padding-bottom: 30px;
   color: rgb(255, 255, 255);
   z-index: 5;
 }
